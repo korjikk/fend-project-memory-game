@@ -159,16 +159,13 @@ function incrementNumberOfMoves() {
 //gradually decreases the star rank when the number of moves rise
 function checkStarRank() {
     switch (numberOfMoves) {
-        case 8: {
+        case 16: {
             document.querySelectorAll('.fa-star')[2].classList.remove('colored');
             break;
         }
-        case 16: {
+        case 24: {
             document.querySelectorAll('.fa-star')[1].classList.remove('colored');
             break;
-        }
-        case 24: {
-            document.querySelectorAll('.fa-star')[0].classList.remove('colored');
         }
     }
 }

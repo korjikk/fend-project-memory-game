@@ -78,7 +78,7 @@ h1 {
 }
 
 .deck .card.wrong {
-    cursor:default;
+    cursor: default;
     background: #FF0000;
     animation: shakeCard;
     animation-duration: 0.5s
@@ -207,7 +207,7 @@ h1 {
     }
 }
 
-@media (max-width:415px) {
+@media (min-width:359px) and (max-width:415px) {
     .deck .card {
         height: 65px;
         width: 65px;
@@ -242,5 +242,81 @@ h1 {
         font-size: 30px;
         width: 500px;
         margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 415px) and (max-width:690px) {
+    .deck {
+        width: 400px;
+        min-height: 400px;
+    }
+    .deck .card {
+        height: 75px;
+        width: 75px;
+    }
+    #modalContent {
+        font-size: 15px;
+        width: 260px;
+    }
+    #modalContent h2, #modalContent footer span {
+        font-size: 26px;
+    }
+    .deck .card.show {
+        font-size: 40px;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    .score-panel {
+        font-size: 20px;
+        width: 370px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width:251px) and (max-width:358px) {
+    .deck {
+        width: 250px;
+        min-height: 250px;
+    }
+    .deck .card {
+        height: 40px;
+        width: 40px;
+    }
+    .deck .card.show {
+        font-size: 25px;
+    }
+    #modalContent h2, #modalContent footer span {
+        font-size: 15px;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    .score-panel {
+        font-size: 20px;
+        width: 240px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width:250px) {
+    .deck {
+        width: 90%;
+    }
+    .score-panel {
+        width: 85%;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    .deck .card {
+        height: 40px;
+        width: 40px;
+    }
+    .deck .card.show {
+        font-size: 15px;
+    }
+    #modalContent h2, #modalContent footer span {
+        font-size: 15px;
     }
 }
