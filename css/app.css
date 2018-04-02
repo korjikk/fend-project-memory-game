@@ -274,7 +274,7 @@ h1 {
     }
 }
 
-@media (min-width:251px) and (max-width:358px) {
+@media (min-width:251px) and (max-width:359px) {
     .deck {
         width: 250px;
         min-height: 250px;
@@ -293,13 +293,13 @@ h1 {
         font-size: 30px;
     }
     .score-panel {
-        font-size: 20px;
+        font-size: 15px;
         width: 240px;
         margin-bottom: 25px;
     }
 }
 
-@media (max-width:250px) {
+@media (max-width:251px) {
     .deck {
         width: 90%;
     }
